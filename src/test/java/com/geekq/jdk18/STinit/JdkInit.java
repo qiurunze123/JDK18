@@ -67,7 +67,24 @@ package com.geekq.jdk18.STinit;
  *   cart --- filter --- sorted ---- map --- collect
  *   数据源    ｜ 中间操作                ｜    终端操作
  *
+ *   ****** 流的构建 *******
  *
+ *   1.由值创建流
+ *   2.由数组创建流
+ *   3.由文件生成流
+ *   4.由函数生成流 （无限流）
+ *
+ *   ******* 收集器 *******
+ *
+ *   将流的元素累积成一个结果
+ *   作用于终端操作collect上
+ *   collect collector collectors
+ *
+ *   预定义收集器功能
+ *
+ *   将流元素规约和汇总为一个值
+ *   将流元素分组
+ *   将流元素分区
  *
  */
 public class JdkInit {
